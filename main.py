@@ -569,7 +569,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
         caption=caption
       ),
       reply_markup=keyboard
@@ -587,7 +587,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -627,7 +627,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg4012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -654,7 +654,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg4012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -708,7 +708,7 @@ async def feature_button(client, callback_query):
   ])
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpgcbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -720,7 +720,7 @@ async def pin_button(client, callback_query):
   caption = f"**Auto Pin 📌 Batch Name :**\n\nAutomatically Pins the Batch Name in Channel or Group, If Starting from the First Link."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpgd8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -732,7 +732,7 @@ async def watermark_button(client, callback_query):
   caption = f"**Custom Watermark :**\n\nSet Your Own Custom Watermark on Videos for Added Personalization."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpgcbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
       caption=caption
       ),
       reply_markup=keyboard
