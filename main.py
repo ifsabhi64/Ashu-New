@@ -535,7 +535,7 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🖱️Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
         ])
         
         await start_message.edit_text(
@@ -549,11 +549,11 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🖱️Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
         ])
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
-           f"**You are currently using the free version.** 🆓\n\n<blockquote expandable>I'm here to make your life easier by downloading videos from your **.txt** file 📄 and uploading them directly to Telegram!</blockquote>\n\n**Want to get started? Press /id**\n\n💬 Contact : [{CREDIT}⁬](tg://openmessage?user_id={OWNER}) to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓\n", disable_web_page_preview=True, reply_markup=keyboard
+           f"**You are currently using the free version.** 🆓\n\n<blockquote expandable>I'm here to make your life easier by downloading videos from your **.txt** file 📄 and uploading them directly to Telegram!</blockquote>\n\n**Want to get started? Press /id**\n\n💬 Contact : [{CREDIT}⁬](https://t.me/IFSAshuAbhiBot) to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓\n", disable_web_page_preview=True, reply_markup=keyboard
     )
 
 @bot.on_callback_query(filters.regex("back_to_main_menu"))
@@ -564,7 +564,7 @@ async def back_to_main_menu(client, callback_query):
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🖱️Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
         ])
     
     await callback_query.message.edit_media(
